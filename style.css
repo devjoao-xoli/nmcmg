@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#sim {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+button#sim:hover {
+    background-color: #3e8e41;
+}
+
+button#nao {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+}
+
+#resposta {
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+}
